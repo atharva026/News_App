@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-api_key = 'YOUR_API_KEY'
+api_key = 'your_api_key_here'
 URL = 'https://newsapi.org/v2/top-headlines'
 
 def fetchNews(country=None, category=None, query=None, page_size=30 ):
